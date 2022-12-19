@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>youtube clone by rasel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap");
+    </style>
+    <link rel="stylesheet" href="styles/generale.css" />
+    <link rel="stylesheet" href="styles/video.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/sidebar.css" />
+  </head>
+
+  <body>
+    <!-- Start The Header-->
+    <div class="header">
+      <div class="header-left">
+        <img
+          class="hamburger-menu"
+          src="search-bar/humbargur-menu-icon.png"
+          alt="humbargur-menu-icon"
+        />
+        <img
+          class="youtube-logo"
+          src="search-bar/youtube-icon.png"
+          alt="youtube-icon"
+        />
+      </div>
+
+      <div class="header-middle">
+        <input class="search-bar" type="text" placeholder="Search" />
+
+        <button class="search-button">
+          <img
+            class="search-icon"
+            src="search-bar/magnifyying-icon1.png"
+            alt="magnifying-icon"
+          />
+          <div class="tooltip">Search</div>
+        </button>
+
+        <button class="microphone-button">
+          <img
+            class="microphone-icon"
+            src="search-bar/microphone-icon1.png"
+            alt="microphone-icon"
+          />
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+
+      <div class="header-right">
+        <div class="video-create">
+          <img class="video-icon" src="search-bar/video-icon.png" alt="" />
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="notification">
+          <div class="notification-icon-container">
+            <img
+              class="notification-icon"
+              src="search-bar/notification-icon.png"
+              alt=""
+            />
+            <p class="notification-count">3</p>
+          </div>
+          <div class="tooltip">Notification</div>
+        </div>
+        <div>
+          <img
+            class="current-user-picture"
+            src="profile-picture/user-profile-picture.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- This is Sidebar-->
+    <div class="sidebar">
+      <div class="sidebar-icon">
+        <img class="home-icon" src="sidebar/home-icon.png" alt="" />
+        <p class="sidebar-text">Home</p>
+      </div>
+      <div class="sidebar-icon">
+        <img class="shorts-icon" src="sidebar/shorts-icon.jpeg" alt="" />
+        <p class="sidebar-text">Shorts</p>
+      </div>
+      <div class="sidebar-icon">
+        <img
+          class="subscription-icon"
+          src="sidebar/subscription-icon.png"
+          alt=""
+        />
+        <p class="sidebar-text">Subscriptions</p>
+      </div>
+      <div class="sidebar-icon">
+        <img class="library-icon" src="sidebar/library-icon.png" alt="" />
+        <p class="sidebar-text">Library</p>
+      </div>
+    </div>
+
+    <!-- This is video preview-->
+    <div class="video-grid">
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-1.jpeg" alt="" />
+          <div class="video-time"><p>09:20</p></div>
+        </div>
+        <div class="channel-info">
+          <div class="profile-picinfo">
+            <img
+              class="profile-picture"
+              src="profile-picture/profile-picture1.jpeg"
+              alt="Profile-1"
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">Amazing Nature Scenery</p>
+            <p class="video-author">Snigdho Chowdhory &#10003;</p>
+            <p class="video-state">1.3M views &middot; 4 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-2.jpeg" alt="" />
+          <div class="video-time"><p>12:40</p></div>
+        </div>
+        <div class="channel-info">
+          <div class="profile-picinfo">
+            <img
+              class="profile-picture"
+              src="profile-picture/profile-picture2.jpeg"
+              alt="Profile-1"
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Scenic Wildlife Film, Bird Sounds Relaxation!
+            </p>
+            <p class="video-author">Burtent Striv &#10003;</p>
+            <p class="video-state">850K views &middot; 8 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-3.jpeg" alt="" />
+          <div class="video-time"><p>07:14</p></div>
+        </div>
+        <div class="channel-info">
+          <div class="profile-picinfo">
+            <img
+              class="profile-picture"
+              src="profile-picture/profile-picture3.jpeg"
+              alt=""
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">Sunny Mornings by Peder B. Helland!</p>
+            <p class="video-author">B. Helland &#10003;</p>
+            <p class="video-state">2.1M views &middot; 14 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-4.jpeg" alt="" />
+          <div class="video-time"><p>13:20</p></div>
+        </div>
+        <div class="channel-info">
+          <div class="profile-picinfo">
+            <img
+              class="profile-picture"
+              src="profile-picture/profile-picture4.jpeg"
+              alt="Profile-1"
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">Beautiful Relaxing Music & Guitar Music!</p>
+            <p class="video-author">Bivor Ahmed &#10003;</p>
+            <p class="video-state">5.2M views &middot; 18 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-5.jpeg" alt="" />
+          <div class="video-time"><p>31:23</p></div>
+        </div>
+        <div class="channel-info">
+          <div class="profile-picinfo">
+            <img
+              class="profile-picture"
+              src="profile-picture/profile-picture5.png"
+              alt="Profile-1"
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Beautiful nature sense || Sundarban Bangladesh!
+            </p>
+            <p class="video-author">Shisir &#128151; &#10003;</p>
+            <p class="video-state">189K views &middot; 2 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-4.jpeg" alt="" />
+          <div class="video-time"><p>04:14</p></div>
+        </div>
+        <div class="channel-info">
+          <div class="profile-picinfo">
+            <img
+              class="profile-picture"
+              src="profile-picture/profile-picture6.jpeg"
+              alt=""
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">Bangladeshi Beautiful Nature!</p>
+            <p class="video-author">Mr. & Mis &#10003;</p>
+            <p class="video-state">1.99M views &middot; 15 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-7.jpeg" alt="" />
+          <div class="video-time"><p>23:23</p></div>
+        </div>
+        <div class="channel-info">
+          <div class="profile-picinfo">
+            <img
+              class="profile-picture"
+              src="profile-picture/profile-picture7.jpeg"
+              alt="Profile-1"
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Village nature picture in world || Bangladesh!
+            </p>
+            <p class="video-author">Nilima Haque &#10003;</p>
+            <p class="video-state">205K views &middot; 3.9 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-8.jpeg" alt="" />
+          <div class="video-time"><p>13:53</p></div>
+        </div>
+        <div class="channel-info">
+          <div class="profile-picinfo">
+            <img
+              class="profile-picture"
+              src="profile-picture/profile-picture8.jpeg"
+              alt="Profile-1"
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">This worls || Sundarban Bangladesh!</p>
+            <p class="video-author">Rasel Rena&#10003;</p>
+            <p class="video-state">5.3M views &middot; 21 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-9.jpeg" alt="" />
+          <div class="video-time"><p>19:23</p></div>
+        </div>
+        <div class="channel-info">
+          <div class="profile-picinfo">
+            <img
+              class="profile-picture"
+              src="profile-picture/profile-picture9.jpeg"
+              alt="Profile-1"
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Beautiful world in camera|| Sundarban Bangladesh!
+            </p>
+            <p class="video-author">Mahir &#10003;</p>
+            <p class="video-state">499K views &middot; 5 months ago</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="thumbnails/thumbnail-10.jpeg" alt="" />
+          <div class="video-time"><p>21:43</p></div>
+        </div>
+        <div class="channel-info">
+          <div class="profile-picinfo">
+            <img
+              class="profile-picture"
+              src="profile-picture/profile-picture10.jpeg"
+              alt="Profile-1"
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">Worl is very good || Bangladesh!</p>
+            <p class="video-author">Rimi Sultana &#10003;</p>
+            <p class="video-state">758K views &middot; 7 months ago</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
